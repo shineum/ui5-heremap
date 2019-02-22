@@ -1,0 +1,14 @@
+<mvc:View controllerName="Z_HEREMAP.controller.ViewMain" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<FlexBox class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+						<html:div style="width: 400px; height: 300px" id="mapContainer"></html:div>
+					</FlexBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
